@@ -52,11 +52,6 @@ PRODUCT_PACKAGES += \
     atfwd \
     datastatusnotification \
     ims \
-    MobileFeliCaClient \
-    MobileFeliCaMenuMainApp \
-    MobileFeliCaSettingApp \
-    MobileFeliCaWebPlugin \
-    MobileFeliCaWebPluginBoot \
     uceShimService \
     CNEService \
     qcrilmsgtunnel \
@@ -1364,6 +1359,11 @@ PRODUCT_PACKAGES += \
     libsdsprpc \
     TimeService \
     crosshatch_game_driver \
+    MobileFeliCaClient \
+    MobileFeliCaMenuMainApp \
+    MobileFeliCaSettingApp \
+    MobileFeliCaWebPlugin \
+    MobileFeliCaWebPluginBoot \
     com.qualcomm.qti.services.secureui \
     EuiccGoogle \
     EuiccSupportPixel \

@@ -211,21 +211,10 @@ android_app_import {
 }
 
 android_app_import {
-	name: "com.qualcomm.qti.services.secureui",
-	owner: "google",
-	apk: "proprietary/product/app/com.qualcomm.qti.services.secureui/com.qualcomm.qti.services.secureui.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
 	name: "MobileFeliCaClient",
 	owner: "google",
 	apk: "proprietary/product/app/MobileFeliCaClient/MobileFeliCaClient.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -236,7 +225,7 @@ android_app_import {
 	name: "MobileFeliCaMenuMainApp",
 	owner: "google",
 	apk: "proprietary/product/app/MobileFeliCaMenuMainApp/MobileFeliCaMenuMainApp.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -247,7 +236,7 @@ android_app_import {
 	name: "MobileFeliCaSettingApp",
 	owner: "google",
 	apk: "proprietary/product/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -258,7 +247,7 @@ android_app_import {
 	name: "MobileFeliCaWebPlugin",
 	owner: "google",
 	apk: "proprietary/product/app/MobileFeliCaWebPlugin/MobileFeliCaWebPlugin.apk",
-	presigned: true,
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
@@ -269,7 +258,18 @@ android_app_import {
 	name: "MobileFeliCaWebPluginBoot",
 	owner: "google",
 	apk: "proprietary/product/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk",
-	presigned: true,
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
+	name: "com.qualcomm.qti.services.secureui",
+	owner: "google",
+	apk: "proprietary/product/app/com.qualcomm.qti.services.secureui/com.qualcomm.qti.services.secureui.apk",
+	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
