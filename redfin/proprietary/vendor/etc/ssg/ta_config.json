@@ -1,0 +1,7 @@
+{
+  "embedded_ta_images": [
+  ],
+  "ta_images": [
+    { "path":"/vendor/firmware/haventkn.mbn"}
+  ]
+}
