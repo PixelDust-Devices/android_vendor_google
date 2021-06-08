@@ -1836,6 +1836,14 @@ PRODUCT_COPY_FILES += \
     vendor/google/coral/proprietary/vendor/media/refiner_patches_right_driver.tflite:$(TARGET_COPY_OUT_VENDOR)/media/refiner_patches_right_driver.tflite \
     vendor/google/coral/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
     vendor/google/coral/proprietary/vendor/radio/qcril_database/upgrade/0_initial.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/0_initial.sql \
+    vendor/google/coral/proprietary/vendor/radio/qcril_database/upgrade/10_add_more_fr_ecc.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/10_add_more_fr_ecc.sql \
+    vendor/google/coral/proprietary/vendor/radio/qcril_database/upgrade/11_remove_fr_orange.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/11_remove_fr_orange.sql \
+    vendor/google/coral/proprietary/vendor/radio/qcril_database/upgrade/12_israel_normal_ecc.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/12_israel_normal_ecc.sql \
+    vendor/google/coral/proprietary/vendor/radio/qcril_database/upgrade/13_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/13_version_update_ecc_table.sql \
+    vendor/google/coral/proprietary/vendor/radio/qcril_database/upgrade/14_add_fr_normal_ecc.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/14_add_fr_normal_ecc.sql \
+    vendor/google/coral/proprietary/vendor/radio/qcril_database/upgrade/15_fr_normal_ecc_on_wifi.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/15_fr_normal_ecc_on_wifi.sql \
+    vendor/google/coral/proprietary/vendor/radio/qcril_database/upgrade/16_ch_normal_ecc.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/16_ch_normal_ecc.sql \
+    vendor/google/coral/proprietary/vendor/radio/qcril_database/upgrade/17_in_normal_ecc.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/17_in_normal_ecc.sql \
     vendor/google/coral/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
     vendor/google/coral/proprietary/vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/2_version_add_wps_config.sql \
     vendor/google/coral/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql \
