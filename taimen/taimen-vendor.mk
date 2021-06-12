@@ -158,7 +158,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/product/etc/permissions/com.verizon.apn.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.verizon.apn.xml \
     vendor/google/taimen/proprietary/product/etc/permissions/com.verizon.services.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.verizon.services.xml \
     vendor/google/taimen/proprietary/product/etc/permissions/features-verizon.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/features-verizon.xml \
-    vendor/google/taimen/proprietary/product/etc/permissions/obdm_permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/obdm_permissions.xml \
     vendor/google/taimen/proprietary/product/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml \
     vendor/google/taimen/proprietary/product/etc/permissions/split-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/split-permissions-google.xml \
     vendor/google/taimen/proprietary/product/etc/permissions/vzw_mvs_permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/vzw_mvs_permissions.xml \
@@ -184,17 +183,8 @@ PRODUCT_PACKAGES += \
     uceShimService \
     vzw_msdc_api \
     CNEService \
-    OemDmTrigger \
     qcrilmsgtunnel \
-    VZWAPNLib \
-    AmbientSensePrebuilt \
-    AppDirectedSMSService \
-    CarrierServices \
-    CarrierSettings \
-    CarrierWifi \
     ConnMO \
-    DCMO \
-    DMService \
     DevicePersonalizationPrebuiltPixel2 \
     DiagMon \
     EuiccGoogle \
@@ -202,14 +192,6 @@ PRODUCT_PACKAGES += \
     HardwareInfo \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
-    MyVerizonServices \
-    OBDM_Permissions \
-    SprintDM \
-    SprintHM \
-    TetheringEntitlement \
-    WfcActivation \
-    obdm_stub \
-    CarrierSetup \
     cneapiclient \
     com.google.android.camera.experimental2017 \
     com.quicinc.cne.api-V1.0-java \
