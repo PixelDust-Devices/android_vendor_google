@@ -28,7 +28,8 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.SET_WALLPAPER_COMPONENT"/>
         <permission name="android.permission.LOCATION_HARDWARE"/>
         <permission name="android.permission.REGISTER_STATS_PULL_ATOM"/>
-        <permission name="android.permission.REQUEST_NETWORK_SCORES"/>
+	<permission name="android.permission.REQUEST_NETWORK_SCORES"/>
+	<permission name="android.permission.CHANGE_CONFIGURATION"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.settings">
