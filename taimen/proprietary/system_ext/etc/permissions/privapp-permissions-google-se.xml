@@ -28,11 +28,16 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.SET_WALLPAPER_COMPONENT"/>
         <permission name="android.permission.LOCATION_HARDWARE"/>
         <permission name="android.permission.REGISTER_STATS_PULL_ATOM"/>
-        <permission name="android.permission.REQUEST_NETWORK_SCORES"/>
+	<permission name="android.permission.REQUEST_NETWORK_SCORES"/>
+	<permission name="android.permission.REBOOT"/>
+	<permission name="android.permission.RECOVERY"/>
+	<permission name="android.permission.CHANGE_CONFIGURATION"/>
+	<permission name="android.permission.ACCESS_CONTEXT_HUB"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.settings">
         <permission name="android.permission.INSTALL_DYNAMIC_SYSTEM"/>
+	<permission name="android.permission.MANAGE_APP_LOCK"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.android.systemui">
